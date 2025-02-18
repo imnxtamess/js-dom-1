@@ -2,9 +2,9 @@
 // Add event listener click to the light-bulb img so that when it clicks it changes to the lit up one
 
 
-const whiteBulb = document.getElementById("white-bulb")
+const bulb = document.getElementById("bulb")
 
 clickBtn.addEventListener("click", function () {
-  if (whiteBulb.src)
-    whiteBulb.src = "./assets/img/yellow_lamp.png"
+  if (bulb.src)
+    bulb.src = "./assets/img/yellow_lamp.png"
 })
