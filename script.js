@@ -5,5 +5,6 @@
 const whiteBulb = document.getElementById("white-bulb")
 
 clickBtn.addEventListener("click", function () {
-  whiteBulb.src = "./assets/img/yellow_lamp.png"
+  if (whiteBulb.src)
+    whiteBulb.src = "./assets/img/yellow_lamp.png"
 })
